@@ -1,0 +1,51 @@
+.container{
+	border-style: inset;
+  border-color: #4286f4;
+  border-width: 7px;
+  padding:20px;
+	box-shadow: 5px 5px 5px 5px #4286f4;
+  margin:auto;
+/*	margin:5px 10px 10px 5px;*/
+/*	background:#d88843; */
+  background:#d88843;
+	width:380px;
+}
+.theading{
+	padding-left: 10px;
+	font-size:30px;
+}
+.imgtiger{
+	padding: 10px;
+	width: 300px;
+	cursor: -webkit-grab; cursor: grab;
+}
+.box_for_info{
+  border-style: inset;
+  border-color: #4286f4;
+  border-width: 7px;
+	padding:5px;
+	margin:10px 5px 5px 5px;
+	background:#fff;
+}
+#italic{
+	font-style: italic;
+}
+.tigerinfo{
+	text-align:left;
+	list-style: none;
+	padding:10px;
+	}
+.info{
+  font-weight:bold;
+}
+.lastp{
+	text-align:left;
+	font-style:sans-serif;
+	padding:10px;
+}
+.effect{
+  transition:transform .4s;
+}
+.effect:hover{
+  transform:scale(1.10);
+}
